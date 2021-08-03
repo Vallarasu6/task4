@@ -3,12 +3,16 @@ package bank.pojo;
 import java.util.Scanner;
 
 public class PassData {
-    Scanner sc = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
     public PassData(){}
     private int id;
     private String Name;
     private String BankName;
     private long Balance;
+
+    public PassData(Integer cid, String cname, String cbank, Long cbalance) {
+    }
+
     public void setId(int id){
         this.id = id;
     }
