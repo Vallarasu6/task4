@@ -16,7 +16,7 @@ public class TestRunner {
                 case 1: {
 //
                     DbStore db = new DbStore();
-                    db.insertToTable();
+                    db.insertToAccountTable();
                     break;
                 }
                 case 2:{
